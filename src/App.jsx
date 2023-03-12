@@ -19,7 +19,6 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Login />} />
-        <Route exact path='/login' element={<Login />} />
         <Route exact path='/home' element={
           <ProtectedRoute>
             <Home />
